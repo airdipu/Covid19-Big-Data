@@ -4,7 +4,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
 import operator
 
-
+#Filter data to find only country with Australia
 def filterData(df):
       return df.filter(col("Country/Region") == "Australia")
 
