@@ -39,4 +39,4 @@ for column in names:
             df = df.drop(column)
 
 
-df.show()
+#df.show()
